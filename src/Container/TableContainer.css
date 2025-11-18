@@ -1,0 +1,233 @@
+.table-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 25px;
+  margin: 20px 0;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  overflow: hidden;
+}
+
+.table-container-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 10px;
+}
+
+.custom-table {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.custom-table thead {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.4) 0%, rgba(118, 75, 162, 0.4) 100%);
+}
+
+.custom-table thead th {
+  border: none;
+  padding: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.custom-table tbody tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.custom-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: scale(1.01);
+}
+
+.custom-table tbody td {
+  border: none;
+  padding: 12px 15px;
+  vertical-align: middle;
+}
+
+/* Stat Card Styles */
+.stat-card {
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-10px) scale(1.05);
+}
+
+.stat-card h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.stat-number {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+}
+
+.stat-description {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.stat-info-text {
+  text-align: center;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-info-text p {
+  font-size: 0.9rem;
+  color: #444;
+  margin: 0;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+/* List Styles */
+.roles-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.roles-list li {
+  padding: 4px 0;
+  color: #555;
+  font-size: 0.85rem;
+  position: relative;
+  padding-left: 16px;
+}
+
+.roles-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: bold;
+}
+
+.active-users-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.active-users-list li {
+  padding: 4px 0;
+  color: #555;
+  font-size: 0.85rem;
+  position: relative;
+  padding-left: 16px;
+}
+
+.active-users-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: bold;
+}
+
+.status-active {
+  color: #28a745;
+  font-weight: 500;
+}
+
+/* Recent Activity Compact Table */
+.recent-activity-compact {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.activity-table-compact {
+  width: 100%;
+  font-size: 0.85rem;
+  border-collapse: collapse;
+}
+
+.activity-table-compact tbody tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.activity-table-compact tbody tr:last-child {
+  border-bottom: none;
+}
+
+.activity-table-compact td {
+  padding: 6px 4px;
+  color: #555;
+}
+
+.activity-table-compact .time-col {
+  width: 80px;
+  font-weight: 500;
+  color: #667eea;
+}
+
+.activity-table-compact .user-col {
+  width: 120px;
+  font-weight: 500;
+}
+
+.activity-table-compact .action-col {
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .table-container {
+    padding: 15px;
+  }
+
+  .table-container-title {
+    font-size: 1.4rem;
+  }
+
+  .custom-table {
+    font-size: 0.9rem;
+  }
+
+  .custom-table thead th,
+  .custom-table tbody td {
+    padding: 10px;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .stat-card h3 {
+    font-size: 1rem;
+  }
+}
+
