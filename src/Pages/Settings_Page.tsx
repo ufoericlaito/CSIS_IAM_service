@@ -76,7 +76,7 @@ const SettingsPage: React.FC = () => {
     <div className="dashboard-page">
       <Navbar className="navbar-custom" expand="lg">
         <Container fluid>
-          <Navbar.Brand className="text-white">UL Management System - Settings</Navbar.Brand>
+          <Navbar.Brand className="text-white">CSIS IAM Service - Settings</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse>
             <Nav className="ms-auto">

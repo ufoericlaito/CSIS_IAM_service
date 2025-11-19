@@ -37,7 +37,7 @@ const DashboardUser: React.FC = () => {
     <div className="dashboard-page">
       <Navbar className="navbar-custom" expand="lg">
         <Container fluid>
-          <Navbar.Brand className="text-white">UL Student System</Navbar.Brand>
+          <Navbar.Brand className="text-white">CSIS IAM Service</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse>
             <Nav className="ms-auto">

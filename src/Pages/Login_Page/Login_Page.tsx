@@ -37,7 +37,7 @@ const LoginPage: React.FC = () => {
         <Card className="login-card fade-in">
           <Card.Body>
             <div className="text-center mb-4">
-              <h1 className="login-title">UL Student Management System</h1>
+              <h1 className="login-title">CSIS IAM Service</h1>
               <p className="login-subtitle">Welcome Back</p>
             </div>
 

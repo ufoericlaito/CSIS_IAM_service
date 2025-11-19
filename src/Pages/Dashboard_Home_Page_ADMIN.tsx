@@ -101,7 +101,7 @@ const DashboardAdmin: React.FC = () => {
     <div className="dashboard-page">
       <Navbar className="navbar-custom" expand="lg">
         <Container fluid>
-          <Navbar.Brand className="text-white">UL Management System - Admin</Navbar.Brand>
+          <Navbar.Brand className="text-white">CSIS IAM Service - Admin</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse>
             <Nav className="ms-auto">
@@ -237,7 +237,7 @@ const DashboardAdmin: React.FC = () => {
         <div className="text-container highlight fade-in">
           <h3 className="text-container-title">System Introduction</h3>
           <div className="text-container-content">
-            <p>UL Student Management System is a modern student information management platform that provides student information management, course management, grade management and other functions.</p>
+            <p>CSIS IAM Service is a modern Identity and Access Management platform that provides user authentication, authorization, role management, and comprehensive audit logging capabilities.</p>
           </div>
         </div>
 

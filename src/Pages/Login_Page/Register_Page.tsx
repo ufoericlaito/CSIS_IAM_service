@@ -38,7 +38,7 @@ const RegisterPage: React.FC = () => {
           <Card.Body>
             <div className="text-center mb-4">
               <h1 className="login-title">Create Account</h1>
-              <p className="login-subtitle">Join UL Student Management System</p>
+              <p className="login-subtitle">Join CSIS IAM Service</p>
             </div>
 
             <Form onSubmit={handleSubmit}>
