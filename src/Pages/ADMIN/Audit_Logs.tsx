@@ -62,7 +62,16 @@ const AuditLogs: React.FC = () => {
     <div className="dashboard-page">
       <Navbar className="navbar-custom" expand="lg">
         <Container fluid>
-          <Navbar.Brand className="text-white">CSIS IAM Service - Audit Logs</Navbar.Brand>
+          <Navbar.Brand className="text-white d-flex align-items-center">
+            <img
+              src="/logo-placeholder.svg"
+              alt="CSIS IAM Logo"
+              height="40"
+              className="me-3"
+              style={{ objectFit: 'contain' }}
+            />
+            <span>CSIS IAM Service - Audit Logs</span>
+          </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse>
             <Nav className="ms-auto">
