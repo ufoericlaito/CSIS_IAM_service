@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
-import { Container, Row, Col, Card, Button, Navbar, Nav } from 'react-bootstrap'
+import { Container, Row, Col, Button, Navbar, Nav } from 'react-bootstrap'
 import { AppState } from '../Store'
 import './Dashboard.css'
 import '../Container/TableContainer.css'
@@ -59,33 +59,6 @@ const DashboardUser: React.FC = () => {
         <Row className="mb-4">
           <Col>
             <h1 className="page-title fade-in">Welcome, {user.name}!</h1>
-          </Col>
-        </Row>
-
-        <Row className="mb-4">
-          <Col md={4}>
-            <Card className="custom-card stat-card">
-              <Card.Body>
-                <h3>Enrolled Courses</h3>
-                <h2 className="stat-number">5</h2>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={4}>
-            <Card className="custom-card stat-card">
-              <Card.Body>
-                <h3>Average Grade</h3>
-                <h2 className="stat-number">85</h2>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={4}>
-            <Card className="custom-card stat-card">
-              <Card.Body>
-                <h3>Credits</h3>
-                <h2 className="stat-number">120</h2>
-              </Card.Body>
-            </Card>
           </Col>
         </Row>
 
