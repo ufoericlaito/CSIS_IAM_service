@@ -17,7 +17,7 @@ import SettingsPage from './Pages/Settings_Page'
 function App() {
   return (
     <Provider store={store}>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <div className="App">
           <Routes>
             <Route path="/" element={<Navigate to="/login" replace />} />
